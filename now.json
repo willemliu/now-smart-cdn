@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "regions": ["bru1"],
+    "headers": [
+        {
+            "source": "/api/clock1",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "max-age=0, s-maxage=5, stale-while-revalidate"
+                }
+            ]
+        },
+        {
+            "source": "/api/clock2",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "max-age=0, s-maxage=10, stale-while-revalidate"
+                }
+            ]
+        }
+    ]
+}
