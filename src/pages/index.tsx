@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Footer } from "../components/Footer";
 
 function Index() {
     const [date, setDate] = useState(null);
@@ -61,6 +62,7 @@ function Index() {
                     stale-while-revalidate
                 </li>
             </ul>
+            <Footer />
         </>
     );
 }
