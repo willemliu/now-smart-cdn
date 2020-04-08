@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <a
-                href="https://github.com/willemliu/static-next"
+                href="https://github.com/willemliu/now-smart-cdn"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Github"
